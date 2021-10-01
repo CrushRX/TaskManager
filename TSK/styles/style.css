@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+header {
+	background-color: green;
+	height: 100px;
+	padding: 20px;
+	font-size: 24px;
+	vertical-align: middle;
+	text-align: center;
+	color: wheat;
+}
+
+header h1 {
+	display: inline-block;
+}
+
+.centerDV {
+	margin: 0 20%;
+	background-color: silver;
+}
+
+body {
+	background-color: silver;
+}
+
+.usersNav {
+	border: 2px solid black;
+	background-color: white;
+	width: fit-content;
+	padding-right: 100px;
+	height: fit-content;
+}
+
+.usersNav {
+	display: inline-block;
+	margin-top: 10px;
+	width: 100px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.showInfo {
+	display: inline-block;
+	width: 100%;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+.sendInfo {
+	border: 2px solid black;
+	height: fit-content;
+	width: 250px;
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.middle {
+	width: 100%;
+	display: inline-flex;
+}
+
+.sendInfo > select {
+	border-radius: 10px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.sendInfo > input {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.sendFormButton {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: white;
+}
+
+.outputField {
+	border: 2px solid black;
+	padding: 10px;
+	background-color: white;
+}
+
+#delForm {
+	float: right;
+}
+
+.showArchiveDataButton {
+	margin-top: 10px;
+}
+
+.usersNav > a {
+	font-size: 18px;
+	font-weight: 600;
+	color: green;
+
+}
+
+.usersNav > a:hover{
+	color: blue;
+
+}
+
+.showInfo > p {
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 48px;
+	color: #43426d;
+}
+
+.authDiv {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 40px;
+	width: fit-content;
+	background-color: white;
+	margin: 15% 40%;
+}
+
+.authDiv p {
+	margin-bottom: 2px;
+}
+
+.authDiv input {
+	margin-bottom: 10px;
+}
+
+.authDiv h3 {
+	margin-bottom: 9px;
+}
+
+.exitBtn {
+	background-color: white;
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.authA {
+	color: white;
+	font-weight: 900;
+	font-size: 30px;
+}
+
+.authA:hover {
+	color: lawngreen;
+}
+
+.useradd {
+	float: left;
+}
+
+.btns {
+	font-size: 14px;
+	padding: 5px;
+	background-color: greenyellow;
+}
+
+.mytxt {
+	font-size: 20px;
+	display: inline-block;
+}
